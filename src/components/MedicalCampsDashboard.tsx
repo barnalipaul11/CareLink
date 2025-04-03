@@ -183,7 +183,7 @@ const MedicalCampsDashboard: React.FC = () => {
                 
                 <div className="mt-5 pt-4 border-t border-gray-100">
                   <button className="w-full py-2 bg-healthcare-blue text-white rounded-md hover:bg-healthcare-blue-dark transition-colors duration-200 btn-hover">
-                    Register for Camp
+                     <a href="https://forms.gle/Th9tWh16njC5QF4C9">Register for Camp</a>
                   </button>
                 </div>
               </div>

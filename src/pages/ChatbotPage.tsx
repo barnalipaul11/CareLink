@@ -76,7 +76,7 @@ const ChatbotPage: React.FC = () => {
                 If you're experiencing a medical emergency, please call your local emergency services immediately:
               </p>
               <div className="bg-white p-3 rounded-lg text-center">
-                <p className="text-2xl font-bold text-red-600">911</p>
+                <p className="text-2xl font-bold text-red-600">112</p>
                 <p className="text-gray-600 text-sm">Emergency Services</p>
               </div>
             </div>

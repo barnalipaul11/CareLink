@@ -38,7 +38,50 @@ const ChatBot: React.FC = () => {
     { 
       trigger: 'camps', 
       response: "I'd be happy to inform you about medical camps in your area. Please share your location so I can provide accurate information about upcoming health camps and vaccine drives."
+    },
+    
+    { 
+        "trigger": "pregnancy", 
+        "response": "Pregnancy is a crucial phase that requires proper care. For a healthy pregnancy: 1) Stay hydrated and maintain a balanced diet, 2) Take prenatal vitamins as prescribed, 3) Get regular check-ups with your doctor. If you experience severe abdominal pain, heavy bleeding, dizziness, or blurred vision, seek medical attention immediately. You can visit hospitals like Apollo Hospitals, Fortis Hospitals, or AIIMS for expert maternity care."
+    },
+    { 
+        "trigger": "heart attack", 
+        "response": "If you suspect a heart attack: 1) Call emergency services immediately, 2) Keep the person calm and seated, 3) If available, chew and swallow an aspirin (unless allergic). Symptoms include chest pain, shortness of breath, nausea, or lightheadedness. Seek urgent care at hospitals like Narayana Health, Medanta – The Medicity, or Max Healthcare."
+    },
+    { 
+        "trigger": "burns", 
+        "response": "For minor burns: 1) Run cool (not ice-cold) water over the affected area for 10-15 minutes, 2) Apply aloe vera or a burn ointment, 3) Avoid breaking blisters. For severe burns, cover the area with a sterile cloth and seek immediate care at specialized burn centers like Safdarjung Hospital, AIIMS, or National Burns Centre."
+    },
+    
+      {
+        "trigger": "breath",
+        "response": `Person is choking:  
+        1) Encourage them to cough forcefully  
+        2) If they can't breathe, perform the Heimlich maneuver (abdominal thrusts)  
+        3) If unconscious, start CPR and call emergency services.  
+      
+      🏥 Seek emergency treatment at hospitals like Manipal Hospitals, Kokilaben Dhirubhai Ambani Hospital, or Apollo Hospitals.  
+      
+      📺 Watch these videos for guidance:  
+      🔗 [Video 1](https://youtu.be/wVnGWqqe-6M?si=i0UEzF3cGl3CnJFn)  
+      🔗 [Video 2](https://youtu.be/2PngCv7NjaI?si=j25OSUlisMGzND_n)`
+      }
+      
+    ,    
+    { 
+        "trigger": "fracture", 
+        "response": "For fractures: 1) Keep the injured area still and immobilized, 2) Apply a splint if possible without moving the bone, 3) Use ice packs to reduce swelling. 🏥 Seek medical attention at trauma centers like AIIMS, Fortis Hospitals, or Medanta Hospital."
+    },
+    { 
+        "trigger": "stroke", 
+        "response": "If you suspect a stroke (FAST: Face drooping, Arm weakness, Speech difficulty, Time to call emergency services): 1) Keep the person in a comfortable position, 2) Do not give them food or drink, 3) Seek urgent medical attention at stroke-specialized 🏥 hospitals like Narayana Health, AIIMS, or Manipal Hospitals."
+    },
+    { 
+        "trigger": "accident", 
+        "response": "In case of an accident: 1) Ensure safety by moving away from oncoming traffic if possible, 2) Apply pressure to any bleeding wounds, 3) Keep the injured person stable and avoid unnecessary movement. 🏥 Call emergency services and visit hospitals like Max Healthcare, AIIMS, or Fortis Emergency Care."
     }
+    
+    
   ];
 
   useEffect(() => {

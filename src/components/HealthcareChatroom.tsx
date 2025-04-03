@@ -32,7 +32,7 @@ const initialPosts = [
     comments: 12,
     shares: 15,
     videoUrl: 'https://example.com/video2.mp4',
-    videoThumbnail: 'https://images.unsplash.com/photo-1455279032580-11724aa9bf06?q=80&w=500&auto=format&fit=crop'
+    videoThumbnail: 'https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     id: 3,
@@ -47,7 +47,7 @@ const initialPosts = [
     comments: 7,
     shares: 22,
     videoUrl: 'https://example.com/video3.mp4',
-    videoThumbnail: 'https://images.unsplash.com/photo-1632053003385-def3f43bfbd6?q=80&w=500&auto=format&fit=crop'
+    videoThumbnail: 'https://images.unsplash.com/photo-1470116945706-e6bf5d5a53ca?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   }
 ];
 
@@ -72,7 +72,7 @@ const upcomingSessions = [
     title: 'Prenatal Care: What to Expect',
     doctor: 'Dr. Maria Gonzalez',
     time: 'Oct 28, 11:00 AM',
-    thumbnail: 'https://images.unsplash.com/photo-1515488764276-beab7607c1e2?q=80&w=100&auto=format&fit=crop'
+    thumbnail: 'https://images.unsplash.com/photo-1624727828489-a1e03b79bba8?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   }
 ];
 
@@ -214,7 +214,7 @@ const HealthcareChatroom: React.FC = () => {
                   </div>
                   
                   <button className="px-4 py-1.5 bg-healthcare-blue text-white rounded-md hover:bg-healthcare-blue-dark transition-colors duration-200 btn-hover">
-                    Watch Full Video
+                    <a href="https://youtu.be/YlE945dptAM?si=cv23IBLhRT1Cy9EQ">Watch Full Video</a>
                   </button>
                 </div>
               </div>
